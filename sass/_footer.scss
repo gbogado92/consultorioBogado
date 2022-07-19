@@ -1,0 +1,19 @@
+
+
+.footer {
+    display: grid;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 150px;
+
+    h2 {
+        grid-column: 1/-1;
+    }
+
+    &__item  {
+        a{
+            padding: 0 15px;
+        }
+    }
+}

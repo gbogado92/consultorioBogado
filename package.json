@@ -1,0 +1,22 @@
+{
+  "name": "consultoriobogado",
+  "version": "1.0.0",
+  "description": "Entrega desafio sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbogado92/consultorioBogado.git"
+  },
+  "author": "Gabriel Bogado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbogado92/consultorioBogado/issues"
+  },
+  "homepage": "https://github.com/gbogado92/consultorioBogado#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

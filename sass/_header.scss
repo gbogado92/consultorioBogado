@@ -1,0 +1,30 @@
+.header {
+    height: 400px;
+
+    &__img {
+        width: 100%;
+        height: auto;
+        grid-column: 7 / 10;
+    }
+
+    &__texto {
+        grid-column: 1/7;
+        padding-right: 20px;
+
+        p {
+            text-align: justify;
+            margin: 10px;
+        }
+    }
+
+    &__contacto {
+        width: 130px;
+        background-color: black;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        padding: 10px 0;
+        text-decoration: none;
+    }
+}
+
